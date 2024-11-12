@@ -1,0 +1,40 @@
+/* components/OrderPage.css */
+.order-page {
+  padding: 20px;
+  text-align: center;
+}
+
+.order-details {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.order-image {
+  width: 100px;
+  height: 100px;
+}
+
+.quantity-controls {
+  display: flex;
+  justify-content: center;
+}
+
+.quantity-controls button {
+  margin: 0 10px;
+}
+
+.place-order-button, .remove-button {
+  margin-top: 10px;
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.place-order-button:hover, .remove-button:hover {
+  background-color: #45a049;
+}
